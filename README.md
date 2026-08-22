@@ -1,4 +1,4 @@
-# Siddh | AI and Data Engineering Developer
+# Siddhant | AI and Data Engineering Developer
 
 I am an AI and data engineering professional with industry experience in GenAI product development and data automation, currently pursuing a Master’s in International Information Systems at FAU Erlangen-Nurnberg. I build practical AI products that move from prototype to production, with a focus on LLM applications, API-first systems, ETL pipelines, and reliable ML workflows.
 
