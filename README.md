@@ -141,9 +141,9 @@ Repo: https://github.com/sidd-24/f1-race-predictor
 
 I am open to AI Engineer, Data Engineer, and Python Backend opportunities, plus project collaborations.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/siddhant-chindhe/)
-[![Email](https://img.shields.io/badge/Email-Reach%20Out-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:siddhant.chindhe.de@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Portfolio-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sidd-24)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/siddhant-chindhe/)
+[![Email](https://img.shields.io/badge/Email%20Out-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:siddhant.chindhe.de@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sidd-24)
 
 ---
 
