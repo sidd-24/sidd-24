@@ -8,7 +8,7 @@
 
   <!-- Quick Status Badges -->
   <p>
-    <a href="mailto:siddhant.chindhe.de@gmail.com"><img src="https://img.shields.io/badge/Status-Open%20for%20Opportunities%20(Germany%2FEU)-2ea44f?style=flat-square" alt="Status"></a>
+    <a href="mailto:siddhant.chindhe.de@gmail.com"><img src="https://img.shields.io/badge/Status-Open%20for%20Internship/Working%20Student%20Roles%20(Germany%2FEU)-2ea44f?style=flat-square" alt="Status"></a>
     <img src="https://img.shields.io/badge/Location-N%C3%BCrnberg%2C%20Germany-blue?style=flat-square&logo=googlemaps&logoColor=white" alt="Location">
     <img src="https://img.shields.io/badge/Education-FAU%20Erlangen--N%C3%BCrnberg-red?style=flat-square&logo=academia&logoColor=white" alt="FAU">
   </p>
