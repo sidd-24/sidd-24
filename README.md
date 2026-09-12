@@ -2,7 +2,7 @@
 
   <h1>Hi, I'm Siddhant Chindhe 👋</h1>
   <p>
-    <strong>AI & Data Engineering Developer</strong> • M.Sc. in International Information Systems @ FAU Erlangen-Nürnberg<br>
+    <strong>AI & Data Engineering Developer</strong> <br>
     <em>Bridging cutting-edge GenAI workflows and robust, production-grade data engineering</em>
   </p>
 
