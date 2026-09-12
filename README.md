@@ -8,8 +8,8 @@
 
   <!-- Clean Metadata Bar (Clean, readable text with icons) -->
   <p>
-    📍 <strong>Nürnberg, Germany</strong> &nbsp;•&nbsp;
-    🎓 <strong>FAU Erlangen-Nürnberg</strong> <em>(M.Sc. IIS)</em>  <br>
+    📍 <strong>Nürnberg, Bayern, Germany</strong> <br>
+    🎓 <strong>M.Sc. International Information Systems at FAU Erlangen-Nürnberg</strong> <em>(M.Sc. IIS)</em>  <br>
     💼 <strong>Seeking:</strong> Working Student / Internship / Master's Thesis
   </p>
 
