@@ -41,6 +41,7 @@
 - 🧠 **GenAI & Agentic Systems**: Architecting tool-calling autonomous agents with **LangGraph**, **Model Context Protocol (MCP)**, and Groq-accelerated LLMs.
 - ⚙️ **Data Pipelines & MLOps**: Building robust ETL/ELT pipelines with **Apache Airflow**, semantic **Knowledge Graphs (RDF/Turtle)**, schema validation (**Pydantic**), and Docker containerization.
 - 🛡️ **Production Reliability**: Adopting test-driven development (**pytest**), RESTful API design (**FastAPI**), structured JSON logging, and CI/CD automation.
+- 🤝 **Workflow & Collaboration**: Delivering within Agile SDLC teams through disciplined sprint support, technical documentation, clear stakeholder communication, and cross-functional execution.
 
 ---
 
@@ -61,6 +62,7 @@
 | **⚙️ Backend & API Engineering** | `FastAPI` &nbsp;•&nbsp; `Python 3.11+` &nbsp;•&nbsp; `Pydantic` &nbsp;•&nbsp; `pytest` &nbsp;•&nbsp; `RESTful APIs` &nbsp;•&nbsp; `Streamlit` &nbsp;•&nbsp; `Uvicorn` &nbsp;•&nbsp; `httpx` |
 | **📊 Data Engineering & Cloud** | `Apache Airflow` &nbsp;•&nbsp; `Docker` &nbsp;•&nbsp; `Knowledge Graphs (RDFLib)` &nbsp;•&nbsp; `Pandas` &nbsp;•&nbsp; `SQLite` &nbsp;•&nbsp; `AWS` &nbsp;•&nbsp; `ETL/ELT Pipelines` |
 | **📈 Machine Learning & Analytics** | `Scikit-Learn` &nbsp;•&nbsp; `XGBoost` &nbsp;•&nbsp; `Time-Series Anomaly Detection` &nbsp;•&nbsp; `Autoencoders` &nbsp;•&nbsp; `Federated Learning` &nbsp;•&nbsp; `FastF1` |
+| **🤝 Workflow & Collaboration** | `Agile SDLC` &nbsp;•&nbsp; `Sprint Support` &nbsp;•&nbsp; `Technical Documentation` &nbsp;•&nbsp; `Stakeholder Communication` &nbsp;•&nbsp; `Cross-Functional Collaboration` &nbsp;•&nbsp; `Git & GitHub Actions` |
 
 ---
 
