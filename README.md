@@ -6,23 +6,25 @@
     <em>Bridging cutting-edge GenAI workflows and robust, production-grade data engineering</em>
   </p>
 
-  <!-- Quick Status Badges -->
+  <!-- Clean Metadata Bar (Clean, readable text with icons) -->
   <p>
-    <a href="mailto:siddhant.chindhe.de@gmail.com"><img src="https://img.shields.io/badge/Status-Open%20for%20Internship/Working%20Student%20Roles%20(Germany%2FEU)-2ea44f?style=flat-square" alt="Status"></a>
-    <img src="https://img.shields.io/badge/Location-N%C3%BCrnberg%2C%20Germany-blue?style=flat-square&logo=googlemaps&logoColor=white" alt="Location">
-    <img src="https://img.shields.io/badge/Education-FAU%20Erlangen--N%C3%BCrnberg-red?style=flat-square&logo=academia&logoColor=white" alt="FAU">
+    📍 <strong>Nürnberg, Germany</strong> &nbsp;•&nbsp;
+    🎓 <strong>FAU Erlangen-Nürnberg</strong> <em>(M.Sc. IIS)</em> &nbsp;•&nbsp;
+    💼 <strong>Seeking:</strong> Working Student / Internship / Master's Thesis
   </p>
 
   <!-- Social Connect Bar -->
   <p>
     <a href="https://www.linkedin.com/in/siddhant-chindhe/" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
+    &nbsp;
     <a href="mailto:siddhant.chindhe.de@gmail.com">
-      <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+      <img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email" />
     </a>
+    &nbsp;
     <a href="https://github.com/sidd-24">
-      <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+      <img src="https://img.shields.io/badge/GitHub-24292e?style=flat&logo=github&logoColor=white" alt="GitHub" />
     </a>
   </p>
 
@@ -40,53 +42,21 @@
 
 ### 🛠️ Skills & Core Technologies
 
+<!-- Prominent, High-Resolution Skill Icons -->
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,docker,pytorch,aws,sqlite,git,linux,githubactions,bash,postman" height="52" alt="Core Technologies" />
+  <img src="https://skillicons.dev/icons?i=python,fastapi,docker,pytorch,aws,sqlite" height="50" alt="Core Technologies 1" />
+  <br><br>
+  <img src="https://skillicons.dev/icons?i=git,githubactions,linux,bash,postman,vscode" height="50" alt="Core Technologies 2" />
 </p>
 
-<table width="100%">
-  <tr>
-    <td width="28%"><strong>🧠 GenAI & LLMs</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/LangGraph-000000?style=for-the-badge&logo=langchain&logoColor=white" alt="LangGraph" />
-      <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" />
-      <img src="https://img.shields.io/badge/MCP-3B82F6?style=for-the-badge&logo=anthropic&logoColor=white" alt="MCP" />
-      <img src="https://img.shields.io/badge/ChromaDB-FFA000?style=for-the-badge&logo=databricks&logoColor=white" alt="ChromaDB" />
-      <img src="https://img.shields.io/badge/Groq_Cloud-F55036?style=for-the-badge&logo=fastapi&logoColor=white" alt="Groq" />
-      <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="HuggingFace" />
-    </td>
-  </tr>
-  <tr>
-    <td><strong>⚙️ Backend & APIs</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
-      <img src="https://img.shields.io/badge/Python_3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-      <img src="https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white" alt="Pydantic" />
-      <img src="https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="pytest" />
-      <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
-    </td>
-  </tr>
-  <tr>
-    <td><strong>📊 Data & Infra</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/Apache_Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white" alt="Airflow" />
-      <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-      <img src="https://img.shields.io/badge/Knowledge_Graphs-RDFLib-5E50F9?style=for-the-badge&logo=graphql&logoColor=white" alt="RDF" />
-      <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
-      <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
-      <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS" />
-    </td>
-  </tr>
-  <tr>
-    <td><strong>📈 Machine Learning</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
-      <img src="https://img.shields.io/badge/XGBoost-1F77B4?style=for-the-badge&logo=apachespark&logoColor=white" alt="XGBoost" />
-      <img src="https://img.shields.io/badge/Anomaly_Detection-Autoencoders-8B5CF6?style=for-the-badge&logo=pytorch&logoColor=white" alt="Anomaly" />
-      <img src="https://img.shields.io/badge/Federated_Learning-PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="FL" />
-    </td>
-  </tr>
-</table>
+<br>
+
+| Domain | Key Technologies, Frameworks & Libraries |
+| :--- | :--- |
+| **🧠 GenAI & Autonomous Agents** | `LangGraph` &nbsp;•&nbsp; `LangChain` &nbsp;•&nbsp; `Model Context Protocol (MCP)` &nbsp;•&nbsp; `Groq Cloud` &nbsp;•&nbsp; `ChromaDB` &nbsp;•&nbsp; `Llama 3` &nbsp;•&nbsp; `Hugging Face` &nbsp;•&nbsp; `RAG` |
+| **⚙️ Backend & API Engineering** | `FastAPI` &nbsp;•&nbsp; `Python 3.11+` &nbsp;•&nbsp; `Pydantic` &nbsp;•&nbsp; `pytest` &nbsp;•&nbsp; `RESTful APIs` &nbsp;•&nbsp; `Streamlit` &nbsp;•&nbsp; `Uvicorn` &nbsp;•&nbsp; `httpx` |
+| **📊 Data Engineering & Cloud** | `Apache Airflow` &nbsp;•&nbsp; `Docker` &nbsp;•&nbsp; `Knowledge Graphs (RDFLib)` &nbsp;•&nbsp; `Pandas` &nbsp;•&nbsp; `SQLite` &nbsp;•&nbsp; `AWS` &nbsp;•&nbsp; `ETL/ELT Pipelines` |
+| **📈 Machine Learning & Analytics** | `Scikit-Learn` &nbsp;•&nbsp; `XGBoost` &nbsp;•&nbsp; `Time-Series Anomaly Detection` &nbsp;•&nbsp; `Autoencoders` &nbsp;•&nbsp; `Federated Learning` &nbsp;•&nbsp; `FastF1` |
 
 ---
 
@@ -152,5 +122,5 @@
 <div align="center">
   <sub>Open to <strong>Working Student</strong>, <strong>Internship</strong>, or <strong>Master's Thesis</strong> positions in AI Engineering, Data Engineering, and Python Backend (Germany/EU/Remote).</sub>
   <br><br>
-  <a href="https://www.linkedin.com/in/siddhant-chindhe/"><img src="https://img.shields.io/badge/Let's%20Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin" alt="Connect"></a>
+  <a href="https://www.linkedin.com/in/siddhant-chindhe/"><img src="https://img.shields.io/badge/Let's%20Connect-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="Connect"></a>
 </div>
