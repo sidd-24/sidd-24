@@ -2,12 +2,19 @@
 
   <h1>Hi, I'm Siddhant Chindhe 👋</h1>
   <h3>AI & Data Engineering Developer</h3>
+  <p>
+    💼 <strong>Seeking:</strong> Working Student / Internship / Master's Thesis
+  </p>
 
-  <!-- Location, Education, Seeking -->
+  <!-- Location & Education -->
   <p>
     📍 <strong>Nürnberg, Bayern, Germany</strong><br>
-    🎓 <strong>M.Sc. International Information Systems</strong> at <strong>FAU Erlangen-Nürnberg</strong><br>
-    💼 <strong>Seeking:</strong> Working Student / Internship / Master's Thesis
+    🎓 <strong>M.Sc. International Information Systems</strong> at <strong>FAU Erlangen-Nürnberg</strong>
+  </p>
+
+  <!-- Bridging Statement -->
+  <p>
+    <em>Bridging cutting-edge GenAI workflows and robust, production-grade data engineering.</em>
   </p>
 
   <!-- Big Social / Contact Logos (No text) -->
@@ -23,11 +30,6 @@
     <a href="https://github.com/sidd-24" title="GitHub">
       <img src="https://skillicons.dev/icons?i=github" height="42" alt="GitHub" />
     </a>
-  </p>
-
-  <!-- Bridging line placed at the end of the header block -->
-  <p>
-    <em>Bridging cutting-edge GenAI workflows and robust, production-grade data engineering.</em>
   </p>
 
 </div>
