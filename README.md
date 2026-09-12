@@ -1,31 +1,33 @@
 <div align="center">
 
   <h1>Hi, I'm Siddhant Chindhe 👋</h1>
-  <p>
-    <strong>AI & Data Engineering Developer</strong> <br>
-    <em>Bridging cutting-edge GenAI workflows and robust, production-grade data engineering</em>
-  </p>
+  <h3>AI & Data Engineering Developer</h3>
 
-  <!-- Clean Metadata Bar (Clean, readable text with icons) -->
+  <!-- Location, Education, Seeking -->
   <p>
-    📍 <strong>Nürnberg, Bayern, Germany</strong> <br>
-    🎓 <strong>M.Sc. International Information Systems at FAU Erlangen-Nürnberg</strong> <br>
+    📍 <strong>Nürnberg, Bayern, Germany</strong><br>
+    🎓 <strong>M.Sc. International Information Systems</strong> at <strong>FAU Erlangen-Nürnberg</strong><br>
     💼 <strong>Seeking:</strong> Working Student / Internship / Master's Thesis
   </p>
 
-  <!-- Social Connect Bar -->
+  <!-- Big Social / Contact Logos (No text) -->
   <p>
-    <a href="https://www.linkedin.com/in/siddhant-chindhe/" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <a href="https://www.linkedin.com/in/siddhant-chindhe/" target="_blank" title="LinkedIn">
+      <img src="https://skillicons.dev/icons?i=linkedin" height="42" alt="LinkedIn" />
     </a>
-    &nbsp;
-    <a href="mailto:siddhant.chindhe.de@gmail.com">
-      <img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email" />
+    &nbsp;&nbsp;
+    <a href="mailto:siddhant.chindhe.de@gmail.com" title="Email">
+      <img src="https://skillicons.dev/icons?i=gmail" height="42" alt="Gmail" />
     </a>
-    &nbsp;
-    <a href="https://github.com/sidd-24">
-      <img src="https://img.shields.io/badge/GitHub-24292e?style=flat&logo=github&logoColor=white" alt="GitHub" />
+    &nbsp;&nbsp;
+    <a href="https://github.com/sidd-24" title="GitHub">
+      <img src="https://skillicons.dev/icons?i=github" height="42" alt="GitHub" />
     </a>
+  </p>
+
+  <!-- Bridging line placed at the end of the header block -->
+  <p>
+    <em>Bridging cutting-edge GenAI workflows and robust, production-grade data engineering.</em>
   </p>
 
 </div>
@@ -122,5 +124,15 @@
 <div align="center">
   <sub>Open to <strong>Working Student</strong>, <strong>Internship</strong>, or <strong>Master's Thesis</strong> positions in AI Engineering, Data Engineering, and Python Backend (Germany/EU/Remote).</sub>
   <br><br>
-  <a href="https://www.linkedin.com/in/siddhant-chindhe/"><img src="https://img.shields.io/badge/Let's%20Connect-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="Connect"></a>
+  <a href="https://www.linkedin.com/in/siddhant-chindhe/" target="_blank" title="LinkedIn">
+    <img src="https://skillicons.dev/icons?i=linkedin" height="38" alt="LinkedIn" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="mailto:siddhant.chindhe.de@gmail.com" title="Email">
+    <img src="https://skillicons.dev/icons?i=gmail" height="38" alt="Gmail" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/sidd-24" title="GitHub">
+    <img src="https://skillicons.dev/icons?i=github" height="38" alt="GitHub" />
+  </a>
 </div>
