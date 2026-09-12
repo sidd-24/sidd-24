@@ -1,30 +1,20 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**sidd-24/sidd-24** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...<div align="center">
-
-  <!-- Dynamic Typing Title -->
-  <a href="https://github.com/sidd-24">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&pause=1200&color=38BDF8&center=true&vCenter=true&width=620&lines=Hi+there%2C+I'm+Siddhant+%F0%9F%91%8B;AI+%26+Data+Engineering+Developer;Building+Agentic+Workflows+%26+ETL+Pipelines;M.Sc.+IIS+%40+FAU+Erlangen-N%C3%BCrnberg" alt="Typing SVG" />
-  </a>
-
-  <p align="center">
-    <strong>Bridging cutting-edge GenAI research and robust, production-grade data engineering.</strong>
+  <h1>Hi, I'm Siddhant Chindhe 👋</h1>
+  <p>
+    <strong>AI & Data Engineering Developer</strong> • M.Sc. in International Information Systems @ FAU Erlangen-Nürnberg<br>
+    <em>Bridging cutting-edge GenAI workflows and robust, production-grade data engineering</em>
   </p>
 
   <!-- Quick Status Badges -->
-  <p align="center">
+  <p>
     <a href="mailto:siddhant.chindhe.de@gmail.com"><img src="https://img.shields.io/badge/Status-Open%20for%20Opportunities%20(Germany%2FEU)-2ea44f?style=flat-square" alt="Status"></a>
     <img src="https://img.shields.io/badge/Location-N%C3%BCrnberg%2C%20Germany-blue?style=flat-square&logo=googlemaps&logoColor=white" alt="Location">
     <img src="https://img.shields.io/badge/Education-FAU%20Erlangen--N%C3%BCrnberg-red?style=flat-square&logo=academia&logoColor=white" alt="FAU">
   </p>
 
   <!-- Social Connect Bar -->
-  <p align="center">
+  <p>
     <a href="https://www.linkedin.com/in/siddhant-chindhe/" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
@@ -48,48 +38,52 @@ Here are some ideas to get you started:
 
 ---
 
-### 🛠️ Technical Matrix
+### 🛠️ Skills & Core Technologies
 
-<table>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,fastapi,docker,pytorch,aws,sqlite,git,linux,githubactions,bash,postman" height="52" alt="Core Technologies" />
+</p>
+
+<table width="100%">
   <tr>
-    <td width="30%"><strong>🧠 GenAI & LLMs</strong></td>
+    <td width="28%"><strong>🧠 GenAI & LLMs</strong></td>
     <td>
-      <img src="https://img.shields.io/badge/LangGraph-000000?style=flat-square&logo=langchain&logoColor=white" alt="LangGraph" />
-      <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
-      <img src="https://img.shields.io/badge/Model%20Context%20Protocol%20(MCP)-3B82F6?style=flat-square" alt="MCP" />
-      <img src="https://img.shields.io/badge/RAG%20%26%20Vector%20Search-ChromaDB-orange?style=flat-square" alt="ChromaDB" />
-      <img src="https://img.shields.io/badge/Groq%20Cloud-F55036?style=flat-square" alt="Groq" />
-      <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="HuggingFace" />
+      <img src="https://img.shields.io/badge/LangGraph-000000?style=for-the-badge&logo=langchain&logoColor=white" alt="LangGraph" />
+      <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" />
+      <img src="https://img.shields.io/badge/MCP-3B82F6?style=for-the-badge&logo=anthropic&logoColor=white" alt="MCP" />
+      <img src="https://img.shields.io/badge/ChromaDB-FFA000?style=for-the-badge&logo=databricks&logoColor=white" alt="ChromaDB" />
+      <img src="https://img.shields.io/badge/Groq_Cloud-F55036?style=for-the-badge&logo=fastapi&logoColor=white" alt="Groq" />
+      <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="HuggingFace" />
     </td>
   </tr>
   <tr>
     <td><strong>⚙️ Backend & APIs</strong></td>
     <td>
-      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-      <img src="https://img.shields.io/badge/Python%203.11+-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-      <img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic" />
-      <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="pytest" />
-      <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit" />
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+      <img src="https://img.shields.io/badge/Python_3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+      <img src="https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white" alt="Pydantic" />
+      <img src="https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="pytest" />
+      <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
     </td>
   </tr>
   <tr>
-    <td><strong>📊 Data & Infrastructure</strong></td>
+    <td><strong>📊 Data & Infra</strong></td>
     <td>
-      <img src="https://img.shields.io/badge/Apache%20Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white" alt="Airflow" />
-      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-      <img src="https://img.shields.io/badge/Knowledge%20Graphs-RDF4J%20%7C%20RDFLib-5E50F9?style=flat-square" alt="RDF" />
-      <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />
-      <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
-      <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white" alt="AWS" />
+      <img src="https://img.shields.io/badge/Apache_Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white" alt="Airflow" />
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+      <img src="https://img.shields.io/badge/Knowledge_Graphs-RDFLib-5E50F9?style=for-the-badge&logo=graphql&logoColor=white" alt="RDF" />
+      <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+      <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
+      <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS" />
     </td>
   </tr>
   <tr>
     <td><strong>📈 Machine Learning</strong></td>
     <td>
-      <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
-      <img src="https://img.shields.io/badge/XGBoost-1F77B4?style=flat-square" alt="XGBoost" />
-      <img src="https://img.shields.io/badge/Time%20Series%20Anomaly-Autoencoder%20%7C%20iForest-blueviolet?style=flat-square" alt="Anomaly" />
-      <img src="https://img.shields.io/badge/Federated%20Learning-PyTorch%20Research-EE4C2C?style=flat-square" alt="FL" />
+      <img src="https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
+      <img src="https://img.shields.io/badge/XGBoost-1F77B4?style=for-the-badge&logo=apachespark&logoColor=white" alt="XGBoost" />
+      <img src="https://img.shields.io/badge/Anomaly_Detection-Autoencoders-8B5CF6?style=for-the-badge&logo=pytorch&logoColor=white" alt="Anomaly" />
+      <img src="https://img.shields.io/badge/Federated_Learning-PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="FL" />
     </td>
   </tr>
 </table>
@@ -141,15 +135,15 @@ Here are some ideas to get you started:
 ### 📊 GitHub Activity & Insights
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sidd-24&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sidd-24&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=sidd-24&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="165" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=sidd-24&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165" />
 </div>
 
 <br>
 
 <div align="center">
   <a href="https://github.com/sidd-24">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=sidd-24&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+    <img src="https://streak-stats.demolab.com/?user=sidd-24&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
   </a>
 </div>
 
@@ -160,12 +154,3 @@ Here are some ideas to get you started:
   <br><br>
   <a href="https://www.linkedin.com/in/siddhant-chindhe/"><img src="https://img.shields.io/badge/Let's%20Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin" alt="Connect"></a>
 </div>
-
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
