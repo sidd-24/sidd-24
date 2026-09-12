@@ -9,7 +9,7 @@
   <!-- Clean Metadata Bar (Clean, readable text with icons) -->
   <p>
     📍 <strong>Nürnberg, Bayern, Germany</strong> <br>
-    🎓 <strong>M.Sc. International Information Systems at FAU Erlangen-Nürnberg</strong> <em>(M.Sc. IIS)</em>  <br>
+    🎓 <strong>M.Sc. International Information Systems at FAU Erlangen-Nürnberg</strong> <br>
     💼 <strong>Seeking:</strong> Working Student / Internship / Master's Thesis
   </p>
 
