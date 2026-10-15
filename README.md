@@ -117,12 +117,6 @@
 
 <br>
 
-<div align="center">
-  <a href="https://github.com/sidd-24">
-    <img src="https://streak-stats.demolab.com/?user=sidd-24&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-  </a>
-</div>
-
 ---
 
 <div align="center">
