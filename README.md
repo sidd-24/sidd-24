@@ -1,97 +1,103 @@
 <div align="center">
 
   <h1>Hi, I'm Siddhant Chindhe 👋</h1>
-  <h3>AI & Data Engineering Developer</h3>
+  <h3>AI & Data Engineer · M.Sc. International Information Systems @ FAU Erlangen-Nürnberg</h3>
+
   <p>
-    💼 <strong>Seeking:</strong> Working Student / Internship / Master's Thesis
+    <em>I build AI and data systems for real operations (IT service management, compliance and Industry 4.0),<br>
+    with the evaluation and governance that make them trustworthy.</em>
   </p>
 
-  <!-- Location & Education -->
   <p>
-    📍 <strong>Nürnberg, Bayern, Germany</strong><br>
-    🎓 <strong>M.Sc. International Information Systems</strong> at <strong>FAU Erlangen-Nürnberg</strong>
+    <img src="https://img.shields.io/badge/N%C3%BCrnberg%2C_Germany-1F2937?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location: Nürnberg, Germany" />
+    <img src="https://img.shields.io/badge/Open_to-Working_Student_·_Internship_·_Master's_Thesis-2563EB?style=for-the-badge" alt="Open to Working Student, Internship, Master's Thesis" />
   </p>
 
-  <!-- Bridging Statement -->
   <p>
-    <em>Bridging cutting-edge GenAI workflows and robust, production-grade data engineering.</em>
-  </p>
-
-  <!-- Big Social / Contact Logos (No text) -->
-  <p>
-    <a href="https://www.linkedin.com/in/siddhant-chindhe/" target="_blank" title="LinkedIn">
-      <img src="https://skillicons.dev/icons?i=linkedin" height="42" alt="LinkedIn" />
-    </a>
-    &nbsp;&nbsp;
-    <a href="mailto:siddhant.chindhe.de@gmail.com" title="Email">
-      <img src="https://skillicons.dev/icons?i=gmail" height="42" alt="Gmail" />
-    </a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/sidd-24" title="GitHub">
-      <img src="https://skillicons.dev/icons?i=github" height="42" alt="GitHub" />
-    </a>
+    <a href="https://www.linkedin.com/in/siddhant-chindhe/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    <a href="mailto:siddhant.chindhe.de@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   </p>
 
 </div>
 
 ---
 
-### 🚀 What I Bring to the Table
+### 🧭 How I build
 
-- 🧠 **GenAI & Agentic Systems**: Architecting tool-calling autonomous agents with **LangGraph**, **Model Context Protocol (MCP)**, and Groq-accelerated LLMs.
-- ⚙️ **Data Pipelines & MLOps**: Building robust ETL/ELT pipelines with **Apache Airflow**, semantic **Knowledge Graphs (RDF/Turtle)**, schema validation (**Pydantic**), and Docker containerization.
-- 🛡️ **Production Reliability**: Adopting test-driven development (**pytest**), RESTful API design (**FastAPI**), structured JSON logging, and CI/CD automation.
-- 🤝 **Workflow & Collaboration**: Delivering within Agile SDLC teams through disciplined sprint support, technical documentation, clear stakeholder communication, and cross-functional execution.
+- **📏 Measured, not claimed.** Every AI project ships with a labelled evaluation set and a simple baseline, and the README also reports what didn't work.
+- **🛡️ Governance by design.** Human review where it matters, audit logs, role-restricted tools, and requirements mapped to the **EU AI Act**, **GDPR** and **ISO 27001**.
+- **⚙️ Production habits.** Typed APIs, idempotent pipelines, tests that run without API keys, and CI on every push.
 
 ---
 
-### 🛠️ Skills & Core Technologies
+### 🌟 Featured Projects
 
-<!-- Prominent, High-Resolution Skill Icons -->
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,docker,pytorch,aws,sqlite" height="50" alt="Core Technologies 1" />
-  <br><br>
-  <img src="https://skillicons.dev/icons?i=git,githubactions,linux,bash,postman,vscode" height="50" alt="Core Technologies 2" />
-</p>
+#### 🛡️ Trustworthy AI & Compliance
 
+| Project | What it does | Result |
+| :--- | :--- | :--- |
+| **[resume-screener-eu-ai-act](https://github.com/sidd-24/resume-screener-eu-ai-act)** | Ranks CVs against a job description, but **never decides**. Personal data is anonymised before the LLM call, AI claims are checked against the CV, and every run is audit-logged, following the EU AI Act rules for high-risk hiring systems. | 53 tests · CI |
+| **[policy-compliance-rag](https://github.com/sidd-24/policy-compliance-rag)** | Q&A over company policies, GDPR, the AI Act and NIS2. Every answer cites **document, page and section**, and it refuses questions the policies don't cover. | 25/25 answers correct and cited, 8/8 uncovered questions refused |
+| **[ai-use-case-assessment-eu-ai-act](https://github.com/sidd-24/ai-use-case-assessment-eu-ai-act)** | Prioritises AI use cases by value and feasibility, then checks each against **EU AI Act risk tiers** and GDPR DPIA triggers. | Portfolio matrix, obligations tracker, steering one-pager |
+
+#### 🧩 IT Operations & Governance
+
+| Project | What it does | Result |
+| :--- | :--- | :--- |
+| **[it-service-desk-triage](https://github.com/sidd-24/it-service-desk-triage)** | ITIL triage API. An LLM judges category, impact and urgency; fixed rules set **priority, resolver group, SLA deadlines** and human review. Handles English and German tickets. | **0 of 16** P1/P2 incidents under-called (keyword baseline: 12) |
+| **[it-ops-compliance-assistant](https://github.com/sidd-24/it-ops-compliance-assistant)** | AI assistant for IT operations and ISO 27001. A LangGraph agent uses **role-restricted MCP tools**, with an audit log and human-approved ticket drafts. | 43 tests · CI |
+| **[IT-asset-compliance-tracker](https://github.com/sidd-24/IT-asset-compliance-tracker)** | IT asset repository with **ISO 27001 Annex A evidence packs**, end-of-life checks and license true-up reconciliation. | Audit-ready Excel evidence pack |
+| **[IT-governance-status-reporter](https://github.com/sidd-24/IT-governance-status-reporter)** | Turns Jira tickets into PMO reports: KPI trends, RAG status and a **one-page steering committee PDF**. | Jira Cloud or offline demo |
+
+#### 🏭 Data Engineering & Industry 4.0
+
+| Project | What it does | Result |
+| :--- | :--- | :--- |
+| **[airflow-etl](https://github.com/sidd-24/airflow-etl)** | Airflow pipeline for the **German electricity market** (Bundesnetzagentur SMARD): idempotent daily loads, data-quality checks, and the cheapest hours to run energy-intensive production. | Shifting a 2 MW job would have cut its October energy cost by **35%** |
+| **[industry4-semiconductor-quality-monitoring](https://github.com/sidd-24/industry4-semiconductor-quality-monitoring)** | Early warning for failing wafers on **real fab data** (UCI SECOM). Compares PCA process monitoring, an autoencoder and Isolation Forest, with sensor root-cause hints. | **~2×** more failures caught than random inspection |
+| **[kg-etl-pipeline](https://github.com/sidd-24/kg-etl-pipeline)** | ETL from JSON, YAML and XML into an **RDF knowledge graph**, with Pydantic validation and a FastAPI interface. | 13 tests · CI |
+
+<details>
+<summary><strong>More projects</strong></summary>
 <br>
 
-| Domain | Key Technologies, Frameworks & Libraries |
+- **[f1-race-predictor](https://github.com/sidd-24/f1-race-predictor)**: Formula 1 finishing-position model built on FastF1 data. It honestly matches the strong "finish = grid" baseline (Spearman 0.63 vs 0.62).
+- **[qa-coverage-tool](https://github.com/sidd-24/qa-coverage-tool)**: AI-assisted test generation and a coverage gap tracker, with Python and TypeScript regression suites in CI.
+- **[playwright-e2e-suite](https://github.com/sidd-24/playwright-e2e-suite)**: End-to-end browser tests with Playwright and pytest.
+- **[n8n-llm-automation](https://github.com/sidd-24/n8n-llm-automation)**: Low-code support-request routing with n8n and an LLM.
+- **[llm-agent](https://github.com/sidd-24/llm-agent)**: Tool-calling agent with web search, Wikipedia and a calculator.
+- **[FLM](https://github.com/sidd-24/FLM)**: Federated learning experiments.
+
+</details>
+
+---
+
+### 🛠️ Skills & Technologies
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,fastapi,docker,pytorch,aws,sqlite,git,githubactions,linux,bash,postman,vscode" height="44" alt="Python, FastAPI, Docker, PyTorch, AWS, SQLite, Git, GitHub Actions, Linux, Bash, Postman, VS Code" />
+</p>
+
+| Domain | Technologies |
 | :--- | :--- |
-| **🧠 GenAI & Autonomous Agents** | `LangGraph` &nbsp;•&nbsp; `LangChain` &nbsp;•&nbsp; `Model Context Protocol (MCP)` &nbsp;•&nbsp; `Groq Cloud` &nbsp;•&nbsp; `ChromaDB` &nbsp;•&nbsp; `Llama 3` &nbsp;•&nbsp; `Hugging Face` &nbsp;•&nbsp; `RAG` |
-| **⚙️ Backend & API Engineering** | `FastAPI` &nbsp;•&nbsp; `Python 3.11+` &nbsp;•&nbsp; `Pydantic` &nbsp;•&nbsp; `pytest` &nbsp;•&nbsp; `RESTful APIs` &nbsp;•&nbsp; `Streamlit` &nbsp;•&nbsp; `Uvicorn` &nbsp;•&nbsp; `httpx` |
-| **📊 Data Engineering & Cloud** | `Apache Airflow` &nbsp;•&nbsp; `Docker` &nbsp;•&nbsp; `Knowledge Graphs (RDFLib)` &nbsp;•&nbsp; `Pandas` &nbsp;•&nbsp; `SQLite` &nbsp;•&nbsp; `AWS` &nbsp;•&nbsp; `ETL/ELT Pipelines` |
-| **📈 Machine Learning & Analytics** | `Scikit-Learn` &nbsp;•&nbsp; `XGBoost` &nbsp;•&nbsp; `Time-Series Anomaly Detection` &nbsp;•&nbsp; `Autoencoders` &nbsp;•&nbsp; `Federated Learning` &nbsp;•&nbsp; `FastF1` |
-| **🤝 Workflow & Collaboration** | `Agile SDLC` &nbsp;•&nbsp; `Sprint Support` &nbsp;•&nbsp; `Technical Documentation` &nbsp;•&nbsp; `Stakeholder Communication` &nbsp;•&nbsp; `Cross-Functional Collaboration` &nbsp;•&nbsp; `Git & GitHub Actions` |
+| **🧠 GenAI & Agents** | `LangGraph` · `LangChain` · `Model Context Protocol (MCP)` · `RAG` · `ChromaDB` · `Groq` · `Hugging Face` · `LLM evaluation` |
+| **⚙️ Backend & APIs** | `FastAPI` · `Pydantic` · `pytest` · `REST APIs` · `Streamlit` · `Uvicorn` |
+| **📊 Data Engineering** | `Apache Airflow` · `Docker` · `ETL/ELT` · `Knowledge Graphs (RDFLib)` · `Pandas` · `SQLite` · `AWS` |
+| **📈 Machine Learning** | `Scikit-Learn` · `XGBoost` · `PyTorch` · `Anomaly Detection` · `Autoencoders` · `Federated Learning` |
+| **🛡️ Governance & IT Management** | `EU AI Act` · `GDPR` · `ISO/IEC 27001` · `ITIL` · `NIS2` · `Jira` |
+| **🤝 Ways of Working** | `Agile SDLC` · `Technical Documentation` · `Stakeholder Communication` · `GitHub Actions CI/CD` |
 
 ---
 
-### 🌟 Featured Engineering Projects
-
-<div align="center">
-
-| Project | Highlights & Capabilities | Stack | Links |
-| :--- | :--- | :--- | :---: |
-| **🤖 [mcp-tool-agent](https://github.com/sidd-24/mcp-tool-agent)** | Autonomous LangGraph agent communicating over **Model Context Protocol (MCP)** with sandboxed SQLite, web search, and file tools. | `LangGraph` `MCP` `FastAPI` `Groq` | [Code](https://github.com/sidd-24/mcp-tool-agent) • [Specs](https://github.com/sidd-24/mcp-tool-agent#architecture) |
-| **🕸️ [kg-etl-pipeline](https://github.com/sidd-24/kg-etl-pipeline)** | Ingests heterogeneous data formats (JSON/XML), validates schemas, and generates **RDF Knowledge Graph** outputs with a FastAPI interface. | `RDFLib` `FastAPI` `Pydantic` `pytest` | [Code](https://github.com/sidd-24/kg-etl-pipeline) |
-| **🌪️ [airflow-etl](https://github.com/sidd-24/airflow-etl)** | Orchestrated ETL pipeline collecting hourly weather data for Munich, applying transformation logic, and loading to SQLite. | `Airflow` `Docker` `Python` `SQLite` | [Code](https://github.com/sidd-24/airflow-etl) |
-| **🏭 [industry4-anomaly](https://github.com/sidd-24/industry4-anomaly)** | Industrial time-series sensor anomaly detection benchmark comparing classical (Isolation Forest) vs deep learning models (Autoencoders). | `PyTorch` `Scikit-Learn` `Pandas` | [Code](https://github.com/sidd-24/industry4-anomaly) |
-| **🏎️ [f1-race-predictor](https://github.com/sidd-24/f1-race-predictor)** | ML pipeline predicting Formula 1 finishing positions using FastF1 telemetry, qualifying standings, and engineered form features. | `FastF1` `XGBoost` `Plotly` `Pandas` | [Code](https://github.com/sidd-24/f1-race-predictor) |
-| **⚡ [fastapi-llm-service](https://github.com/sidd-24/fastapi-llm-service)** | Production-ready LLM REST API for summarization & classification with stateless API keys, Pydantic validation, and CI testing. | `FastAPI` `Groq` `LangChain` `pytest` | [Code](https://github.com/sidd-24/fastapi-llm-service) |
-
-</div>
-
----
-
-### 💼 Experience & Academic Background
+### 💼 Experience & Education
 
 <details open>
-<summary><strong>🎓 Education & Current Research</strong></summary>
+<summary><strong>🎓 Education</strong></summary>
 <br>
 
 - **Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)** | *Nürnberg, Germany*
   - **M.Sc. in International Information Systems** *(Oct 2024 – Present)*
-  - **Key Focus**: Machine Learning, Process Mining & Analytics, Federated Learning, Enterprise Knowledge Management.
+  - **Focus**: Machine Learning, Process Mining & Analytics, Federated Learning, Enterprise Knowledge Management.
 </details>
 
 <details open>
@@ -99,38 +105,30 @@
 <br>
 
 - **Cognizant** | *Programmer Analyst (Prompt Engineer)* | `Apr 2023 – Sep 2024` *(Pune, India)*
-  - Built context-aware enterprise chatbots utilizing LangChain and Azure OpenAI, cutting response latency by **40%** through prompt optimization and workflow automation.
-  - Deployed scalable GenAI solutions on Azure Cloud utilizing function calling, real-time retrieval patterns, and risk control guardrails.
+  - Built context-aware enterprise chatbots with LangChain and Azure OpenAI, cutting response latency by **40%** through prompt optimization and workflow automation.
+  - Deployed GenAI solutions on Azure Cloud with function calling, real-time retrieval and risk-control guardrails.
   - Designed and tested Python AI/ML pipelines across the Agile SDLC.
 - **Cognizant** | *Data Integration Intern* | `Mar 2022 – Sep 2022` *(Pune, India)*
-  - Developed automated data ingestion and validation pipelines using Python, SQL, and shell scripting for large-scale data processing.
+  - Developed automated data ingestion and validation pipelines with Python, SQL and shell scripting for large-scale data processing.
 </details>
 
 ---
 
-### 📊 GitHub Activity & Insights
+### 📊 GitHub Activity
 
 <div align="center">
   <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=sidd-24&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="165" />
   <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=sidd-24&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165" />
 </div>
 
-<br>
-
 ---
 
 <div align="center">
-  <sub>Open to <strong>Working Student</strong>, <strong>Internship</strong>, or <strong>Master's Thesis</strong> positions in AI Engineering, Data Engineering, and Python Backend (Germany/EU/Remote).</sub>
+  <sub>Open to <strong>Working Student</strong>, <strong>Internship</strong> and <strong>Master's Thesis</strong> positions in AI Engineering, Data Engineering and Python Backend (Germany / EU / Remote).</sub>
   <br><br>
-  <a href="https://www.linkedin.com/in/siddhant-chindhe/" target="_blank" title="LinkedIn">
-    <img src="https://skillicons.dev/icons?i=linkedin" height="38" alt="LinkedIn" />
-  </a>
+  <a href="https://www.linkedin.com/in/siddhant-chindhe/" title="LinkedIn"><img src="https://skillicons.dev/icons?i=linkedin" height="38" alt="LinkedIn" /></a>
   &nbsp;&nbsp;
-  <a href="mailto:siddhant.chindhe.de@gmail.com" title="Email">
-    <img src="https://skillicons.dev/icons?i=gmail" height="38" alt="Gmail" />
-  </a>
+  <a href="mailto:siddhant.chindhe.de@gmail.com" title="Email"><img src="https://skillicons.dev/icons?i=gmail" height="38" alt="Gmail" /></a>
   &nbsp;&nbsp;
-  <a href="https://github.com/sidd-24" title="GitHub">
-    <img src="https://skillicons.dev/icons?i=github" height="38" alt="GitHub" />
-  </a>
+  <a href="https://github.com/sidd-24" title="GitHub"><img src="https://skillicons.dev/icons?i=github" height="38" alt="GitHub" /></a>
 </div>
