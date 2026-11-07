@@ -1,11 +1,11 @@
 <div align="center">
 
   <h1>Hi, I'm Siddhant Chindhe 👋</h1>
-  <h3>AI & Data Engineer · M.Sc. International Information Systems @ FAU Erlangen-Nürnberg</h3>
+  <h3>AI · Data · Machine Learning · M.Sc. International Information Systems @ FAU Erlangen-Nürnberg</h3>
 
   <p>
-    <em>I build AI and data systems for real operations (IT service management, compliance and Industry 4.0),<br>
-    with the evaluation and governance that make them trustworthy.</em>
+    <em>I build data and AI systems for real business problems, and I measure whether they work:<br>
+    baselines, held-out tests, and an honest account of what didn't.</em>
   </p>
 
   <p>
@@ -22,51 +22,61 @@
 
 ---
 
-### 🧭 How I build
-
-- **📏 Measured, not claimed.** Every AI project ships with a labelled evaluation set and a simple baseline, and the README also reports what didn't work.
-- **🛡️ Governance by design.** Human review where it matters, audit logs, role-restricted tools, and requirements mapped to the **EU AI Act**, **GDPR** and **ISO 27001**.
-- **⚙️ Production habits.** Typed APIs, idempotent pipelines, tests that run without API keys, and CI on every push.
-
----
-
-### 🌟 Featured Projects
-
-#### 🛡️ Trustworthy AI & Compliance
+### 🤖 AI Engineering & LLM Applications
 
 | Project | What it does | Result |
 | :--- | :--- | :--- |
-| **[resume-screener-eu-ai-act](https://github.com/sidd-24/resume-screener-eu-ai-act)** | Ranks CVs against a job description, but **never decides**. Personal data is anonymised before the LLM call, AI claims are checked against the CV, and every run is audit-logged, following the EU AI Act rules for high-risk hiring systems. | 53 tests · CI |
-| **[policy-compliance-rag](https://github.com/sidd-24/policy-compliance-rag)** | Q&A over company policies, GDPR, the AI Act and NIS2. Every answer cites **document, page and section**, and it refuses questions the policies don't cover. | 25/25 answers correct and cited, 8/8 uncovered questions refused |
-| **[ai-use-case-assessment-eu-ai-act](https://github.com/sidd-24/ai-use-case-assessment-eu-ai-act)** | Prioritises AI use cases by value and feasibility, then checks each against **EU AI Act risk tiers** and GDPR DPIA triggers. | Portfolio matrix, obligations tracker, steering one-pager |
+| **[it-service-desk-triage](https://github.com/sidd-24/it-service-desk-triage)** | ITIL ticket triage API: an LLM judges category, impact and urgency; fixed rules set priority, resolver group and SLA deadlines. English and German tickets. | **0 of 16** P1/P2 incidents under-called (keyword baseline: 12) |
+| **[policy-compliance-rag](https://github.com/sidd-24/policy-compliance-rag)** | Q&A over company policies, GDPR, the AI Act and NIS2. Every answer cites document, page and section; questions the policies don't cover are refused. | 25/25 answers correct and cited, 8/8 uncovered questions refused |
+| **[resume-screener-eu-ai-act](https://github.com/sidd-24/resume-screener-eu-ai-act)** | Ranks CVs against a job description but never decides: anonymisation before the LLM call, evidence-checked claims, audit log, built for the EU AI Act's high-risk rules. | 53 tests · CI |
+| **[it-ops-compliance-assistant](https://github.com/sidd-24/it-ops-compliance-assistant)** | LangGraph agent for IT operations and ISO 27001, using role-restricted MCP tools, with audit logging and human-approved ticket drafts. | 43 tests · CI |
 
-#### 🧩 IT Operations & Governance
-
-| Project | What it does | Result |
-| :--- | :--- | :--- |
-| **[it-service-desk-triage](https://github.com/sidd-24/it-service-desk-triage)** | ITIL triage API. An LLM judges category, impact and urgency; fixed rules set **priority, resolver group, SLA deadlines** and human review. Handles English and German tickets. | **0 of 16** P1/P2 incidents under-called (keyword baseline: 12) |
-| **[it-ops-compliance-assistant](https://github.com/sidd-24/it-ops-compliance-assistant)** | AI assistant for IT operations and ISO 27001. A LangGraph agent uses **role-restricted MCP tools**, with an audit log and human-approved ticket drafts. | 43 tests · CI |
-| **[IT-asset-compliance-tracker](https://github.com/sidd-24/IT-asset-compliance-tracker)** | IT asset repository with **ISO 27001 Annex A evidence packs**, end-of-life checks and license true-up reconciliation. | Audit-ready Excel evidence pack |
-| **[IT-governance-status-reporter](https://github.com/sidd-24/IT-governance-status-reporter)** | Turns Jira tickets into PMO reports: KPI trends, RAG status and a **one-page steering committee PDF**. | Jira Cloud or offline demo |
-
-#### 🏭 Data Engineering & Industry 4.0
+### 🏗️ Data Engineering
 
 | Project | What it does | Result |
 | :--- | :--- | :--- |
-| **[airflow-etl](https://github.com/sidd-24/airflow-etl)** | Airflow pipeline for the **German electricity market** (Bundesnetzagentur SMARD): idempotent daily loads, data-quality checks, and the cheapest hours to run energy-intensive production. | Shifting a 2 MW job would have cut its October energy cost by **35%** |
-| **[industry4-semiconductor-quality-monitoring](https://github.com/sidd-24/industry4-semiconductor-quality-monitoring)** | Early warning for failing wafers on **real fab data** (UCI SECOM). Compares PCA process monitoring, an autoencoder and Isolation Forest, with sensor root-cause hints. | **~2×** more failures caught than random inspection |
-| **[kg-etl-pipeline](https://github.com/sidd-24/kg-etl-pipeline)** | ETL from JSON, YAML and XML into an **RDF knowledge graph**, with Pydantic validation and a FastAPI interface. | 13 tests · CI |
+| **[db-delay-tracker](https://github.com/sidd-24/db-delay-tracker)** | Deutsche Bahn punctuality pipeline for Nürnberg, Fürth, Erlangen and Bamberg: DuckDB extract from a national archive, dbt models with data tests, monthly scheduled refresh. | 1.57M train stops · 20 dbt tests |
+| **[job-skill-tracker](https://github.com/sidd-24/job-skill-tracker)** | Daily pipeline that collects German job postings and extracts skills, seniority and language requirements, with an auto-updated report. | Runs daily · 47 tests |
+| **[energy-market-airflow-etl](https://github.com/sidd-24/energy-market-airflow-etl)** | Airflow pipeline for the German electricity market (SMARD): idempotent daily loads, data-quality checks, cheapest hours for energy-intensive production. | Load shifting would have cut a 2 MW job's October energy cost by **35 %** |
+| **[kg-etl-pipeline](https://github.com/sidd-24/kg-etl-pipeline)** | ETL from JSON, YAML and XML into an RDF knowledge graph, with Pydantic validation and a FastAPI interface. | 13 tests · CI |
+
+### 📈 Machine Learning & Data Science
+
+| Project | What it does | Result |
+| :--- | :--- | :--- |
+| **[credit-default-model](https://github.com/sidd-24/credit-default-model)** | Default risk for 30,000 credit card customers: baselines, tuned LightGBM, calibration, a threshold set by business cost, SHAP, MLflow and a model card. | AUC 0.784 · cost **17 %** below the analyst rule |
+| **[demand-forecast](https://github.com/sidd-24/demand-forecast)** | 28-day sales forecasts for 3,049 Walmart products (M5), backtested on three earlier windows against simple baselines. | Store-level error **6.8 %** vs 15.1 % for a 28-day average |
+| **[german-news-classifier](https://github.com/sidd-24/german-news-classifier)** | Fine-tuned German BERT vs a TF-IDF baseline on 10,000 news articles, compared on accuracy, speed, size and error types. | **90.7 %** vs 87.1 % accuracy, at 620× the CPU cost |
+| **[industry4-semiconductor-quality-monitoring](https://github.com/sidd-24/industry4-semiconductor-quality-monitoring)** | Early warning for failing wafers on real fab data (UCI SECOM): PCA monitoring, autoencoder and Isolation Forest, with sensor root-cause hints. | **~2×** more failures caught than random inspection |
+
+### 📊 Data Analytics & BI
+
+| Project | What it does | Result |
+| :--- | :--- | :--- |
+| **[retail-sales-powerbi](https://github.com/sidd-24/retail-sales-powerbi)** | Power BI sales dashboard on 1 million real retail transactions: cleaned star schema, DAX measures, cohort retention. | Revenue +2.5 % driven by order size, not order count |
+| **[controlling-report](https://github.com/sidd-24/controlling-report)** | Monthly controlling report from SAP cost exports: reconciliation, data checks, budget vs actual vs prior year, red/amber/green status and written commentary in Excel. | Every file reconciled · 19 tests |
+| **[email-ab-test](https://github.com/sidd-24/email-ab-test)** | Analysis of a randomised e-mail experiment with 64,000 customers: significance tests, multiple-testing correction, power analysis and a decision memo. | **+$0.77** revenue per customer vs no e-mail |
+
+### 🗂️ Product & Project Management
+
+| Project | What it does | Result |
+| :--- | :--- | :--- |
+| **[order-automation-case-study](https://github.com/sidd-24/order-automation-case-study)** | PRD for an order-entry AI agent: users, success metrics, phased rollout, risks (GDPR, works council) and an Excel business case. | **€89k** a year, 8-month payback |
+| **[sample-tracker](https://github.com/sidd-24/sample-tracker)** | Excel tracker for product development samples with a dashboard and data checks, plus an auto-generated weekly PowerPoint status deck. | Weekly deck in one command |
+| **[IT-governance-status-reporter](https://github.com/sidd-24/IT-governance-status-reporter)** | Turns Jira tickets into PMO reports: KPI trends, RAG status and a one-page steering committee PDF. | Jira Cloud or offline demo |
+| **[ai-use-case-assessment-eu-ai-act](https://github.com/sidd-24/ai-use-case-assessment-eu-ai-act)** | Prioritises AI use cases by value and feasibility, then checks each against EU AI Act risk tiers and GDPR. | Portfolio matrix and steering one-pager |
 
 <details>
 <summary><strong>More projects</strong></summary>
 <br>
 
-- **[f1-race-predictor](https://github.com/sidd-24/f1-race-predictor)**: Formula 1 finishing-position model built on FastF1 data. It honestly matches the strong "finish = grid" baseline (Spearman 0.63 vs 0.62).
-- **[qa-coverage-tool](https://github.com/sidd-24/qa-coverage-tool)**: AI-assisted test generation and a coverage gap tracker, with Python and TypeScript regression suites in CI.
+- **[IT-asset-compliance-tracker](https://github.com/sidd-24/IT-asset-compliance-tracker)**: IT asset register with ISO 27001 evidence packs, end-of-life checks and licence reconciliation.
+- **[f1-race-predictor](https://github.com/sidd-24/f1-race-predictor)**: Formula 1 finishing-position model on FastF1 data; it honestly only matches the "finish = grid" baseline.
+- **[FLM](https://github.com/sidd-24/FLM)**: Federated learning on non-IID data, comparing synchronous and asynchronous aggregation.
+- **[qa-coverage-tool](https://github.com/sidd-24/qa-coverage-tool)**: AI-assisted test generation and a coverage gap tracker.
 - **[playwright-e2e-suite](https://github.com/sidd-24/playwright-e2e-suite)**: End-to-end browser tests with Playwright and pytest.
 - **[n8n-llm-automation](https://github.com/sidd-24/n8n-llm-automation)**: Low-code support-request routing with n8n and an LLM.
 - **[llm-agent](https://github.com/sidd-24/llm-agent)**: Tool-calling agent with web search, Wikipedia and a calculator.
-- **[FLM](https://github.com/sidd-24/FLM)**: Federated learning experiments.
 
 </details>
 
@@ -75,17 +85,17 @@
 ### 🛠️ Skills & Technologies
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,docker,pytorch,aws,sqlite,git,githubactions,linux,bash,postman,vscode" height="44" alt="Python, FastAPI, Docker, PyTorch, AWS, SQLite, Git, GitHub Actions, Linux, Bash, Postman, VS Code" />
+  <img src="https://skillicons.dev/icons?i=python,pytorch,sklearn,fastapi,docker,githubactions,git,linux,aws,azure" height="44" alt="Python, PyTorch, scikit-learn, FastAPI, Docker, GitHub Actions, Git, Linux, AWS, Azure" />
 </p>
 
 | Domain | Technologies |
 | :--- | :--- |
-| **🧠 GenAI & Agents** | `LangGraph` · `LangChain` · `Model Context Protocol (MCP)` · `RAG` · `ChromaDB` · `Groq` · `Hugging Face` · `LLM evaluation` |
-| **⚙️ Backend & APIs** | `FastAPI` · `Pydantic` · `pytest` · `REST APIs` · `Streamlit` · `Uvicorn` |
-| **📊 Data Engineering** | `Apache Airflow` · `Docker` · `ETL/ELT` · `Knowledge Graphs (RDFLib)` · `Pandas` · `SQLite` · `AWS` |
-| **📈 Machine Learning** | `Scikit-Learn` · `XGBoost` · `PyTorch` · `Anomaly Detection` · `Autoencoders` · `Federated Learning` |
-| **🛡️ Governance & IT Management** | `EU AI Act` · `GDPR` · `ISO/IEC 27001` · `ITIL` · `NIS2` · `Jira` |
-| **🤝 Ways of Working** | `Agile SDLC` · `Technical Documentation` · `Stakeholder Communication` · `GitHub Actions CI/CD` |
+| **🤖 AI & LLMs** | `LangGraph` · `LangChain` · `MCP` · `RAG` · `Hugging Face Transformers` · `LLM evaluation` · `Azure OpenAI` · `Groq` |
+| **🏗️ Data Engineering** | `SQL` · `dbt` · `DuckDB` · `Apache Airflow` · `Parquet` · `ETL/ELT` · `Data quality tests` · `GitHub Actions` |
+| **📈 Machine Learning** | `scikit-learn` · `LightGBM` · `XGBoost` · `PyTorch` · `MLflow` · `SHAP` · `Time series` · `NLP` |
+| **📊 Analytics & BI** | `Power BI` · `DAX` · `Excel` · `pandas` · `A/B testing` · `Statistics` |
+| **🗂️ Product & Project** | `PRDs` · `Business cases` · `Jira` · `Agile/Scrum` · `Stakeholder reporting` · `EU AI Act` · `GDPR` |
+| **⚙️ Engineering** | `FastAPI` · `Pydantic` · `pytest` · `Docker` · `REST APIs` · `CI/CD` |
 
 ---
 
@@ -124,7 +134,7 @@
 ---
 
 <div align="center">
-  <sub>Open to <strong>Working Student</strong>, <strong>Internship</strong> and <strong>Master's Thesis</strong> positions in AI Engineering, Data Engineering and Python Backend (Germany / EU / Remote).</sub>
+  <sub>Open to <strong>Working Student</strong>, <strong>Internship</strong> and <strong>Master's Thesis</strong> positions in AI Engineering, Data Engineering, Data Science, BI and Product / Project Management (Germany / EU / Remote).</sub>
   <br><br>
   <a href="https://www.linkedin.com/in/siddhant-chindhe/" title="LinkedIn"><img src="https://skillicons.dev/icons?i=linkedin" height="38" alt="LinkedIn" /></a>
   &nbsp;&nbsp;
