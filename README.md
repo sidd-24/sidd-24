@@ -30,6 +30,8 @@
 | **[policy-compliance-rag](https://github.com/sidd-24/policy-compliance-rag)** | Q&A over company policies, GDPR, the AI Act and NIS2. Every answer cites document, page and section; questions the policies don't cover are refused. | 25/25 answers correct and cited, 8/8 uncovered questions refused |
 | **[resume-screener-eu-ai-act](https://github.com/sidd-24/resume-screener-eu-ai-act)** | Ranks CVs against a job description but never decides: anonymisation before the LLM call, evidence-checked claims, audit log, built for the EU AI Act's high-risk rules. | 53 tests · CI |
 | **[it-ops-compliance-assistant](https://github.com/sidd-24/it-ops-compliance-assistant)** | LangGraph agent for IT operations and ISO 27001, using role-restricted MCP tools, with audit logging and human-approved ticket drafts. | 43 tests · CI |
+| **[llm-agent](https://github.com/sidd-24/llm-agent)** | Tool-calling agent (LangChain + Groq) that chooses between web search, Wikipedia and a calculator to answer questions. | Handles failing tools gracefully |
+| **[n8n-llm-automation](https://github.com/sidd-24/n8n-llm-automation)** | Low-code workflow: support requests arrive by webhook, an LLM classifies and summarises them, urgent ones are routed to an external API. | No-code / low-code automation |
 
 ### 🏗️ Data Engineering
 
@@ -48,6 +50,8 @@
 | **[demand-forecast](https://github.com/sidd-24/demand-forecast)** | 28-day sales forecasts for 3,049 Walmart products (M5), backtested on three earlier windows against simple baselines. | Store-level error **6.8 %** vs 15.1 % for a 28-day average |
 | **[german-news-classifier](https://github.com/sidd-24/german-news-classifier)** | Fine-tuned German BERT vs a TF-IDF baseline on 10,000 news articles, compared on accuracy, speed, size and error types. | **90.7 %** vs 87.1 % accuracy, at 620× the CPU cost |
 | **[industry4-semiconductor-quality-monitoring](https://github.com/sidd-24/industry4-semiconductor-quality-monitoring)** | Early warning for failing wafers on real fab data (UCI SECOM): PCA monitoring, autoencoder and Isolation Forest, with sensor root-cause hints. | **~2×** more failures caught than random inspection |
+| **[f1-race-predictor](https://github.com/sidd-24/f1-race-predictor)** | Predicts Formula 1 finishing positions from qualifying, championship standings, recent form and track history (FastF1 data), with Random Forest and XGBoost. | Matches the strong "finish = grid" baseline (Spearman 0.63 vs 0.62) |
+| **[FLM](https://github.com/sidd-24/FLM)** | Federated learning on non-IID data: a centralised PyTorch model vs synchronous (FedProx) and asynchronous (FedAsync) training across 6 clients. | Centralised vs federated comparison |
 
 ### 📊 Data Analytics & BI
 
@@ -55,6 +59,7 @@
 | :--- | :--- | :--- |
 | **[retail-sales-powerbi](https://github.com/sidd-24/retail-sales-powerbi)** | Power BI sales dashboard on 1 million real retail transactions: cleaned star schema, DAX measures, cohort retention. | Revenue +2.5 % driven by order size, not order count |
 | **[controlling-report](https://github.com/sidd-24/controlling-report)** | Monthly controlling report from SAP cost exports: reconciliation, data checks, budget vs actual vs prior year, red/amber/green status and written commentary in Excel. | Every file reconciled · 19 tests |
+| **[IT-asset-compliance-tracker](https://github.com/sidd-24/IT-asset-compliance-tracker)** | Excel IT asset register with Python automation: ISO 27001 evidence packs, end-of-life checks and licence reconciliation. | Audit-ready Excel evidence pack |
 | **[email-ab-test](https://github.com/sidd-24/email-ab-test)** | Analysis of a randomised e-mail experiment with 64,000 customers: significance tests, multiple-testing correction, power analysis and a decision memo. | **+$0.77** revenue per customer vs no e-mail |
 
 ### 🗂️ Product & Project Management
@@ -66,19 +71,12 @@
 | **[IT-governance-status-reporter](https://github.com/sidd-24/IT-governance-status-reporter)** | Turns Jira tickets into PMO reports: KPI trends, RAG status and a one-page steering committee PDF. | Jira Cloud or offline demo |
 | **[ai-use-case-assessment-eu-ai-act](https://github.com/sidd-24/ai-use-case-assessment-eu-ai-act)** | Prioritises AI use cases by value and feasibility, then checks each against EU AI Act risk tiers and GDPR. | Portfolio matrix and steering one-pager |
 
-<details>
-<summary><strong>More projects</strong></summary>
-<br>
+### 🧪 Software Testing & QA
 
-- **[IT-asset-compliance-tracker](https://github.com/sidd-24/IT-asset-compliance-tracker)**: IT asset register with ISO 27001 evidence packs, end-of-life checks and licence reconciliation.
-- **[f1-race-predictor](https://github.com/sidd-24/f1-race-predictor)**: Formula 1 finishing-position model on FastF1 data; it honestly only matches the "finish = grid" baseline.
-- **[FLM](https://github.com/sidd-24/FLM)**: Federated learning on non-IID data, comparing synchronous and asynchronous aggregation.
-- **[qa-coverage-tool](https://github.com/sidd-24/qa-coverage-tool)**: AI-assisted test generation and a coverage gap tracker.
-- **[playwright-e2e-suite](https://github.com/sidd-24/playwright-e2e-suite)**: End-to-end browser tests with Playwright and pytest.
-- **[n8n-llm-automation](https://github.com/sidd-24/n8n-llm-automation)**: Low-code support-request routing with n8n and an LLM.
-- **[llm-agent](https://github.com/sidd-24/llm-agent)**: Tool-calling agent with web search, Wikipedia and a calculator.
-
-</details>
+| Project | What it does | Result |
+| :--- | :--- | :--- |
+| **[qa-coverage-tool](https://github.com/sidd-24/qa-coverage-tool)** | Generates test scenarios from feature descriptions with an LLM, tracks coverage gaps, and runs Python and TypeScript regression suites. | pytest + Jest in CI |
+| **[playwright-e2e-suite](https://github.com/sidd-24/playwright-e2e-suite)** | End-to-end browser tests for a web app with Playwright and pytest: creating, editing, filtering and deleting items. | Runs in GitHub Actions |
 
 ---
 
@@ -101,18 +99,13 @@
 
 ### 💼 Experience & Education
 
-<details open>
-<summary><strong>🎓 Education</strong></summary>
-<br>
+**🎓 Education**
 
 - **Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)** | *Nürnberg, Germany*
   - **M.Sc. in International Information Systems** *(Oct 2024 – Present)*
   - **Focus**: Machine Learning, Process Mining & Analytics, Federated Learning, Enterprise Knowledge Management.
-</details>
 
-<details open>
-<summary><strong>💼 Industry Experience</strong></summary>
-<br>
+**💼 Industry Experience**
 
 - **Cognizant** | *Programmer Analyst (Prompt Engineer)* | `Apr 2023 – Sep 2024` *(Pune, India)*
   - Built context-aware enterprise chatbots with LangChain and Azure OpenAI, cutting response latency by **40%** through prompt optimization and workflow automation.
@@ -120,16 +113,6 @@
   - Designed and tested Python AI/ML pipelines across the Agile SDLC.
 - **Cognizant** | *Data Integration Intern* | `Mar 2022 – Sep 2022` *(Pune, India)*
   - Developed automated data ingestion and validation pipelines with Python, SQL and shell scripting for large-scale data processing.
-</details>
-
----
-
-### 📊 GitHub Activity
-
-<div align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=sidd-24&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="165" />
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=sidd-24&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165" />
-</div>
 
 ---
 
