@@ -49,6 +49,7 @@
 | **[credit-default-model](https://github.com/sidd-24/credit-default-model)** | Default risk for 30,000 credit card customers: baselines, tuned LightGBM, calibration, a threshold set by business cost, SHAP, MLflow and a model card. | AUC 0.784 · cost **17 %** below the analyst rule |
 | **[demand-forecast](https://github.com/sidd-24/demand-forecast)** | 28-day sales forecasts for 3,049 Walmart products (M5), backtested on three earlier windows against simple baselines. | Store-level error **6.8 %** vs 15.1 % for a 28-day average |
 | **[german-news-classifier](https://github.com/sidd-24/german-news-classifier)** | Fine-tuned German BERT vs a TF-IDF baseline on 10,000 news articles, compared on accuracy, speed, size and error types. | **90.7 %** vs 87.1 % accuracy, at 620× the CPU cost |
+| **[dax-risk-monitor](https://github.com/sidd-24/dax-risk-monitor)** | Weekly 99 % Value-at-Risk for 15 DAX stocks: historical simulation, EWMA, GARCH and filtered historical simulation, backtested over 20 years with Kupiec, Christoffersen and Basel traffic-light tests. Refreshes every week. | Only filtered HS passes: **15** exceptions vs 10.4 expected |
 | **[industry4-semiconductor-quality-monitoring](https://github.com/sidd-24/industry4-semiconductor-quality-monitoring)** | Early warning for failing wafers on real fab data (UCI SECOM): PCA monitoring, autoencoder and Isolation Forest, with sensor root-cause hints. | **~2×** more failures caught than random inspection |
 | **[f1-race-predictor](https://github.com/sidd-24/f1-race-predictor)** | Predicts Formula 1 finishing positions from qualifying, championship standings, recent form and track history (FastF1 data), with Random Forest and XGBoost. | Matches the strong "finish = grid" baseline (Spearman 0.63 vs 0.62) |
 | **[FLM](https://github.com/sidd-24/FLM)** | Federated learning on non-IID data: a centralised PyTorch model vs synchronous (FedProx) and asynchronous (FedAsync) training across 6 clients. | Centralised vs federated comparison |
@@ -90,7 +91,7 @@
 | :--- | :--- |
 | **🤖 AI & LLMs** | `LangGraph` · `LangChain` · `MCP` · `RAG` · `Hugging Face Transformers` · `LLM evaluation` · `Azure OpenAI` · `Groq` |
 | **🏗️ Data Engineering** | `SQL` · `dbt` · `DuckDB` · `Apache Airflow` · `Parquet` · `ETL/ELT` · `Data quality tests` · `GitHub Actions` |
-| **📈 Machine Learning** | `scikit-learn` · `LightGBM` · `XGBoost` · `PyTorch` · `MLflow` · `SHAP` · `Time series` · `NLP` |
+| **📈 Machine Learning** | `scikit-learn` · `LightGBM` · `XGBoost` · `PyTorch` · `MLflow` · `SHAP` · `Time series` · `NLP` · `GARCH / Value-at-Risk` |
 | **📊 Analytics & BI** | `Power BI` · `DAX` · `Excel` · `pandas` · `A/B testing` · `Statistics` |
 | **🗂️ Product & Project** | `PRDs` · `Business cases` · `Jira` · `Agile/Scrum` · `Stakeholder reporting` · `EU AI Act` · `GDPR` |
 | **⚙️ Engineering** | `FastAPI` · `Pydantic` · `pytest` · `Docker` · `REST APIs` · `CI/CD` |
